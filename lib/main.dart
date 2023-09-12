@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       supportedLocales: const [
         Locale("ur", "PK"),
       ],
-      locale: const Locale("ur","PK"),
+      locale: const Locale("ur", "PK"),
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColorDark: const Color(0xff002500),

@@ -213,8 +213,11 @@ class OrderViewState extends State<OrderView> {
               ],
             ),
             GestureDetector(
-              onTap: (){
-                Navigator.push(context, CupertinoPageRoute(builder: (context) => const ProductCart()));
+              onTap: () {
+                Navigator.push(
+                    context,
+                    CupertinoPageRoute(
+                        builder: (context) => const ProductCart()));
               },
               child: Container(
                 width: MediaQuery.of(context).size.width * .7,
